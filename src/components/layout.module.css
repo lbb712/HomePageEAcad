@@ -1,21 +1,57 @@
 .container {
-    margin: auto;
-    max-width: 500px;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+  }
+
+  body { 
+    min-height: 100vh; 
+    background-image: linear-gradient(rgb(28, 0, 83), rgb(183, 157, 196));
+  }
+
+  .image_button{
+    display: inline-block;
+    border-radius: 25px;
+    margin: 0px 4px;
+  }
+
+  .header{
+    float: right;
+  }
+
+  .footer{
+    width: 100vw;
+    background-color: rgb(28, 0, 83);
+    position: fixed;
+    bottom: 0;
+    left:0;
+  }
+  .shop_icon{
+    display: inline-block;
+    margin: 4px 4px;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .login{
+    display: inline-block;
+    margin: 4px 4px 0px 4px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 16px;
     font-family: sans-serif;
   }
-  .heading {
-    color: rebeccapurple;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-  }
-  .nav-link-item {
-    padding-right: 2rem;
-  }
-  .nav-link-text {
-    color: black;
+  .register{
+    display: inline-block;
+    margin: 4px 4px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    background-image: linear-gradient(rgb(238,0,100),rgb(225,114,114));
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
   }
 
   .button {
@@ -27,7 +63,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 4px;
+    margin: 44px 4px;
     cursor: pointer;
     border-radius: 25px;
   }
