@@ -42,9 +42,11 @@ const Layout = ({ pageTitle, children }) => {
           <Link to="/about" className={button}>
               About Us
           </Link>
+          <p className={button}>Student Zone</p>
           <Link to="/contact" className={button}>
               Contact Us
           </Link>
+          <p className={button}>Blog</p>
           <div className={rectangle}></div>
         </nav>
         <div>
