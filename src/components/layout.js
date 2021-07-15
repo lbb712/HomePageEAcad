@@ -10,6 +10,7 @@ import {
     login,
     register,
     footer,
+    rectangle
   } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -44,12 +45,15 @@ const Layout = ({ pageTitle, children }) => {
           <Link to="/contact" className={button}>
               Contact Us
           </Link>
+          <div className={rectangle}></div>
         </nav>
-        <h1>{pageTitle}</h1>
-        {children}
+        <div>
+          {children}
+        </div>
+        
       </main>
       <footer className={footer}>
-      <Link to="/404"  className={login}>      
+        <Link to="/404"  className={login}>      
           Login
         </Link>  
       </footer>

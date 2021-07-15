@@ -1,9 +1,19 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
+import {
+  home_background_image,
+  home_text
+} from '../components/layout.module.css'
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <div className={home_background_image}>
+      </div>        
+      <div className={home_text}>
+          <p>Providing digital solutions to schools and coaching institutes across India and helping to transform schools for 21st century learning</p>
+      </div>
     </Layout>
   )
 }
