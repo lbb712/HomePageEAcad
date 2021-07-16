@@ -19,8 +19,8 @@ const Contact = () => {
       <div className={contact_title}>
         <p style={{ color: 'white' }}><b>Contact Us</b></p>
         <div className={small_rectangle}></div>
-        <p style={{ color: 'bistre'}}>Call us on: <b>8421503536</b></p>
-        <p style={{ color: 'bistre'}}>contact@eacad.org</p>
+        <p style={{ color: 'rgb(21, 1, 29)'}}>Call us on: <b>8421503536</b></p>
+        <p style={{ color: 'rgb(21, 1, 29)'}}>contact@eacad.org</p>
       </div>
       <div className={contact_form}>
         <div className={form_box}>

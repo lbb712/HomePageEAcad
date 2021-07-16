@@ -1,4 +1,5 @@
-// Step 1: Import your component
+// Step 1: Import your component 
+// TODO
 import * as React from 'react'
 import Layout from '../components/layout'
 
@@ -6,8 +7,7 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Us">
-      <p>Hi there! </p>
-      <p>We are E Acad. We provide digital solutions to schools and coaching institues across India and help transform schools to 21st century learning.</p>
+      <p>This will contain a meet the team section and what we do.</p>
     </Layout>
   )
 }
